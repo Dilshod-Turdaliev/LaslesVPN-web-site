@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Site header css starts */
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45.62px 150px 0px 150px;
+}
+.site-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0px;
+  color: #4f5665;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+a {
+  text-decoration: none;
+  color: #4f5665;
+}
+.site-header-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.site-header-btn {
+  color: #f53855;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 13px 45px 13px 45px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.signin-header {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
