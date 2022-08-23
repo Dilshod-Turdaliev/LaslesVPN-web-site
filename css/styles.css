@@ -95,6 +95,8 @@ h1 {
 }
 
 .info__container {
+  max-width: 1140px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,5 +127,41 @@ h1 {
 #location__content {
   margin-bottom: 96px;
 }
-
 /* Hero finishes */
+.features__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 169.5px;
+}
+.features__heading {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+.features__disc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 20px;
+}
+.features__ul {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+  list-style-type: none;
+}
+.item__tick {
+  display: flex;
+  align-items: center;
+  gap: 12.08px;
+  margin-bottom: 15px;
+}
+.features {
+  margin-bottom: 210px;
+}
