@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #e5e5e5;
+}
+
 /* Site header starts */
 .container {
   max-width: 1134px;
@@ -70,7 +74,9 @@ a {
   margin-bottom: 103px;
 }
 h1 {
-  font-weight: 700px;
+  font-style: normal;
+  font-family: "Rubik";
+  font: 500;
   font-size: 50px;
   line-height: 70px;
   color: #0b132a;
@@ -128,6 +134,7 @@ h1 {
   margin-bottom: 96px;
 }
 /* Hero finishes */
+/* part 2 starts */
 .features__container {
   display: flex;
   align-items: center;
@@ -163,5 +170,45 @@ h1 {
   margin-bottom: 15px;
 }
 .features {
-  margin-bottom: 210px;
+  margin-bottom: 175px;
 }
+/* part 2 finishes */
+
+/* Your plan starts */
+.your__plan__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.yourplan__header {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+.yourplan__disc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-bottom: 60px;
+}
+
+/* yourplan finishes */
+
+/* 3 steps starts */
+.list__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 50px;
+  list-style-type: none;
+}
+
+/* 3 steps finishes */
