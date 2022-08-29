@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: whitesmoke;
 }
 
 /* Site header starts */
@@ -38,6 +38,9 @@ a {
   text-decoration: none;
   color: #4f5665;
 }
+a:hover{
+  color: red;
+}
 .site-header-button {
   display: flex;
   justify-content: space-around;
@@ -54,6 +57,11 @@ a {
   border: 1px solid #f53855;
   border-radius: 50px;
   background-color: transparent;
+}
+.site-header-btn:hover{
+  color: white;
+  background-color: red;
+  cursor: pointer;
 }
 .signin-header {
   color: #0b132a;
@@ -97,9 +105,14 @@ h1 {
   padding: 17.5px 77.5px;
   background-color: #f53838;
   border-radius: 10px;
-  border: none;
+  border: 1px red solid;
 }
-
+.hero__btn:hover{
+  color: red;
+  background-color: white;
+  cursor: pointer;
+  
+}
 .info__container {
   max-width: 1140px;
   width: 100%;
